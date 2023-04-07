@@ -58,17 +58,7 @@ public class ControllerSlotMachine implements ControllerSlotMachineMethods {
         int quantityWinningToyInt = Integer.parseInt(winningToy.getQuantityToy());
 
         controllerСhoosingActionForSlotMachine(quantityWinningToyInt, randomIdToy);
-/*
-            if (quantityWinningToyInt >= 2) {
 
-                controllerСhangeQuantityToy(randomIdToy,
-                        Integer.toString((quantityWinningToyInt - 1)));
-            }
-            else {
-
-                controllerDeleteToyById(randomIdToy);
-            }
-*/
         return winningToy;
     }
 
