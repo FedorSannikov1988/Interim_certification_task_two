@@ -9,4 +9,5 @@ public interface SlotMachineMethods {
     void setAllToy(List<Toy> notes);
 
     void addOneNewTypeToy(Toy note);
+
 }
