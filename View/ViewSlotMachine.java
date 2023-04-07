@@ -148,7 +148,7 @@ public class ViewSlotMachine implements ViewSlotMachineMethods {
 
         Toy winToy = controllerSlotMachine.controllerStartSlotMachine();
 
-        System.out.println("\n"+"Вы выйграли игрушку " + winToy.getTitleToy() +
+        System.out.println("\n"+"Вы выйграли игрушку: " + winToy.getTitleToy() +
                 " с чаcтотой выпадения: " + winToy.getFrequencyFallingOutToy()+"\n");
     }
 
